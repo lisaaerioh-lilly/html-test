@@ -63,7 +63,7 @@
     </header>
 
     <nav class="nav">
-        <a href="index.html">← Back to Home</a>
+        <a href="/index.html">← Back to Home</a>
         <a href="plots/">All Plots</a>
         <a href="plots/correlations.csv">Download Data</a>
     </nav>
@@ -77,9 +77,12 @@
 
         <div class="results-grid">
             <div class="result-card">
-                <h3>Correlation Summary</h3>
-                <p>Interactive plots showing relationships between energy terms and targets.</p>
-                <a href="plots/" class="plot-link">View All Correlation Plots →</a>
+                <h3>Interactive Plot</h3>
+                <iframe src="correlation_plots/hbond_sr_bb_vs_Tm.html" 
+                        width="100%" 
+                        height="600px" 
+                        frameborder="0">
+                </iframe>
             </div>
 
             <div class="result-card">
