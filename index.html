@@ -32,6 +32,20 @@
         a:hover {
             text-decoration: underline;
         }
+        .btn {
+            background: #007acc;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #005a99;
+        }
     </style>
 </head>
 <body>
@@ -43,29 +57,24 @@
         <div class="project">
             <h2>E10</h2>
             <p>Interactive correlation plots exploring Rosetta energy functions vs experimental data.</p>
-            <a href="plots/correlations.csv">Download Correlation Data</a> | 
-            <a href="plots/">View All Plots</a>
         </div>
 
         <div class="project">
             <h2>Witchmab</h2>
             <p>Collection of interactive Plotly charts showing relationships in biological data.</p>
-            <ul>
+            <!-- <ul>
                 <li><a href="plots/energy_vs_target.html">Energy Function Analysis</a></li>
                 <li><a href="plots/spearman_heatmap.html">Correlation Heatmap</a></li>
-            </ul>
+            </ul> -->
         </div>
 
         <div class="project">
             <h2>Lebri</h2>
-            <p>This site hosts analysis results from protein structure prediction validation. 
-               All plots are generated using Python with Plotly for interactivity.</p>
+            <a href="projects/lebri/project.html" class="btn">View Lebri Analysis</a>
         </div>
 
         <div class="project">
             <h2>Across Projects</h2>
-            <p>This site hosts analysis results from protein structure prediction validation. 
-               All plots are generated using Python with Plotly for interactivity.</p>
         </div>
     </main>
 
